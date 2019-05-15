@@ -1030,7 +1030,7 @@ Let's `map` over the `history` in the Game's `render` method:
         <div className="game-board">
           <Board
             squares={current.squares}
-            onClick={(i) => this.handleClick(i)}
+            onClick={i => this.handleClick(i)}
           />
         </div>
         <div className="game-info">
